@@ -28,7 +28,7 @@ def main_hr_app():
     performance_rating = int(input("Please Enter your rating (1-5) :"))
 
     if performance_rating > 5 or performance_rating < 1 or base_salary < 0:
-        print(" Invalid input , Please restart the program and try again.")
+        print(" Invalid input! , Please restart the program and try again.")
         return
 
     bonus = calculate_bonus(base_salary, performance_rating)
